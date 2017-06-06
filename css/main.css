@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 2.25em; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.75em; }
+
+h5 {
+  font-size: 1.5em; }
+
+h6 {
+  font-size: 1.25em; }
+
+app {
+  height: 100%;
+  width: 100%; }
+
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-family: FaktNormal, Arial, Helvetica, sans-serif;
+  font-size: calc(0.8vw + 0.45);
+  height: 100vh;
+  overflow-x: hidden;
+  width: 100vw; }
+
+mikan-app {
+  background-image: url("../assets/background.jpg");
+  display: flex;
+  flex-direction: column;
+  z-index: 0; }
+
+mikan-control-login {
+  align-self: center;
+  background-color: blue;
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.75);
+  display: flex;
+  position: fixed;
+  top: 5vh;
+  height: 95vh;
+  color: white;
+  width: 75vw;
+  z-index: 2;
+  overflow: hidden; }
+
+mikan-control-title {
+  align-items: center;
+  background-color: #ffb624;
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.75);
+  color: white;
+  display: flex;
+  height: 5vh;
+  width: 100vw;
+  z-index: 5; }
+
+mikan-control-book .container {
+  height: 200px; }
+
+mikan-control-book .title {
+  background-color: #aaaaaa; }
+
+mikan-control-book .content {
+  background-color: #cccccc;
+  overflow: hidden; }
+
+mikan-control-title-menu {
+  padding: 1vh 1vw;
+  position: absolute;
+  right: 0; }
+
+mikan-control-title-header {
+  padding: 1vh 1vw; }
+
+mikan-control-menu {
+  color: black;
+  background-color: #00c341;
+  width: 20%;
+  height: 100%;
+  box-shadow: 0.1vw 0vw 0.5vw rgba(0, 0, 0, 0.25); }
+
+.mikan-body {
+  align-self: center;
+  background-color: white;
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.75);
+  display: flex;
+  height: 95vh;
+  color: white;
+  width: 75vw;
+  z-index: 1; }

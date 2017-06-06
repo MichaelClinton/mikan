@@ -1,0 +1,101 @@
+@import 'variables.scss';
+@import 'reset.scss';
+@import 'fonts.scss';
+
+body {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	font-family: FaktNormal, Arial, Helvetica, sans-serif;
+	font-size: calc(0.8vw + 0.45);
+	height: 100vh;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+mikan-app
+{
+	background-image: url("../assets/background.jpg");
+	display: flex;    
+	flex-direction: column;
+	z-index: 0;
+}
+
+mikan-control-login
+{
+	align-self: center;
+	background-color: blue;
+	box-shadow: $shadow;
+	display: flex;
+	position: fixed;
+	top: 5vh;
+	height: 95vh;
+	color: $white;
+	width: 75vw;	
+	z-index: 2;
+	overflow: hidden;
+}
+
+mikan-control-title
+{
+	align-items: center;
+	background-color: $color-primary-light;
+	box-shadow: $shadow;
+	color: $white;
+	display: flex;
+	height: 5vh;
+	width: 100vw;	
+	z-index: 5;
+}
+
+mikan-control-book
+{
+	.container
+	{
+		height: 200px;
+	}
+	
+	.title
+	{
+		background-color: #aaaaaa;
+	}
+	
+	.content
+	{
+		background-color: #cccccc;
+		overflow: hidden;
+	}
+}
+
+mikan-control-title-menu
+{   
+	padding: 1vh 1vw;
+	position: absolute;
+    right: 0;
+}
+
+mikan-control-title-header
+{
+	padding: 1vh 1vw;
+}
+
+mikan-control-menu
+{
+    color: black;
+    background-color: $color-secondary-light;
+    width: 20%;
+    height: 100%;
+	box-shadow: $shadow-menu;
+}
+
+.mikan-body
+{
+	align-self: center;
+	background-color: $white;
+	box-shadow: $shadow;
+	display: flex;
+	height: 95vh;
+	color: $white;
+	width: 75vw;	
+	z-index: 1;
+}
